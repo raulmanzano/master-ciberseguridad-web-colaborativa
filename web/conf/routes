@@ -8,7 +8,7 @@ GET     /remove/{student}                       Application.removeStudent
 GET     /setMark/{student}                      Application.setMark
 POST    /setMark/{student}                      Application.doSetMark
 GET     /login                                  Secure.login
-GET     /authenticate                           Secure.authenticate
+POST    /authenticate                           Secure.authenticate
 GET     /logout                                 Secure.logout
 GET     /register                               PublicContentBase.register
 POST    /register                               PublicContentBase.processRegister

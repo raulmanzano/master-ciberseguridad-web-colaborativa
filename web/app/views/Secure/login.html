@@ -3,7 +3,7 @@
 <h2>&{'Public.login.title'}</h2>
 
 
-#{form @authenticate()}
+#{form @Secure.authenticate()}
     #{if flash.error}
         <p class="error">
             &{flash.error}
